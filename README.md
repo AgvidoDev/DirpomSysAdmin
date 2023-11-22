@@ -69,6 +69,9 @@
 
 Настройте дешборды с отображением метрик, минимальный набор — по принципу USE (Utilization, Saturation, Errors) для CPU, RAM, диски, сеть, http запросов к веб-серверам. Добавьте необходимые tresholds на соответствующие графики.
 
+![zabbix](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/zabbix.jpg)
+![zabbix](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/zabbixd.jpg)
+
 ### Логи
 Cоздайте ВМ, разверните на ней Elasticsearch. Установите filebeat в ВМ к веб-серверам, настройте на отправку access.log, error.log nginx в Elasticsearch.
 
