@@ -69,6 +69,8 @@
 
 Настройте дешборды с отображением метрик, минимальный набор — по принципу USE (Utilization, Saturation, Errors) для CPU, RAM, диски, сеть, http запросов к веб-серверам. Добавьте необходимые tresholds на соответствующие графики.
 
+Zabbix долтупен по http://130.193.49.58/zabbix/zabbix.php?action=dashboard.view
+
 ![zabbix](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/zabbix.jpg)
 ![zabbix](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/zabbixd.jpg)
 
@@ -76,6 +78,12 @@
 Cоздайте ВМ, разверните на ней Elasticsearch. Установите filebeat в ВМ к веб-серверам, настройте на отправку access.log, error.log nginx в Elasticsearch.
 
 Создайте ВМ, разверните на ней Kibana, сконфигурируйте соединение с Elasticsearch.
+
+Kibana доступна по: http://158.160.59.84:5601/app/kibana/
+
+![balance](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/kibana_01.jpg)
+![balance](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/kibana_02.jpg)
+
 
 ### Сеть
 Разверните один VPC. Сервера web, Elasticsearch поместите в приватные подсети. Сервера Zabbix, Kibana, application load balancer определите в публичную подсеть.
