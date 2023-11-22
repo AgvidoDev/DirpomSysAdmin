@@ -34,7 +34,7 @@
 Ознакомьтесь со всеми пунктами из этой секции, не беритесь сразу выполнять задание, не дочитав до конца. Пункты взаимосвязаны и могут влиять друг на друга.
 
 
-![server](https://github.com/AgvidoDev/sdb-homeworks/blob/main/11-02-01.jpg)
+![server](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/servers.jpg)
 
 
 
@@ -50,6 +50,10 @@
 Создайте [HTTP router](https://cloud.yandex.com/docs/application-load-balancer/concepts/http-router). Путь укажите — /, backend group — созданную ранее.
 
 Создайте [Application load balancer](https://cloud.yandex.com/en/docs/application-load-balancer/) для распределения трафика на веб-сервера, созданные ранее. Укажите HTTP router, созданный ранее, задайте listener тип auto, порт 80.
+
+![balance](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/balance.jpg)
+
+
 
 Протестируйте сайт
 `curl -v <публичный IP балансера>:80` 
