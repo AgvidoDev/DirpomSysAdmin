@@ -52,7 +52,9 @@
 Создайте [Application load balancer](https://cloud.yandex.com/en/docs/application-load-balancer/) для распределения трафика на веб-сервера, созданные ранее. Укажите HTTP router, созданный ранее, задайте listener тип auto, порт 80.
 
 ![balance](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/balance.jpg)
-
+![balance](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/router.jpg)
+![balance](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/backend.jpg)
+![balance](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/target.jpg)
 
 
 Протестируйте сайт
