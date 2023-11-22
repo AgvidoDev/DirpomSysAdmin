@@ -92,8 +92,21 @@ Kibana доступна по: http://158.160.59.84:5601/app/kibana/
 
 Настройте ВМ с публичным адресом, в которой будет открыт только один порт — ssh. Настройте все security groups на разрешение входящего ssh из этой security group. Эта вм будет реализовывать концепцию bastion host. Потом можно будет подключаться по ssh ко всем хостам через этот хост.
 
+![security](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/sec01.jpg)
+![security](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/sec02.jpg)
+![security](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/sec03.jpg)
+![security](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/sec04.jpg)
+![security](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/sec05.jpg)
+
+
+
 ### Резервное копирование
 Создайте snapshot дисков всех ВМ. Ограничьте время жизни snaphot в неделю. Сами snaphot настройте на ежедневное копирование.
+
+![save](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/save.jpg)
+
+
+
 
 ### Дополнительно
 Не входит в минимальные требования. 
