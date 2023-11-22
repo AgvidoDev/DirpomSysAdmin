@@ -63,6 +63,10 @@
 ![balance](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/connect.jpg)
 ![balance](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/lbalance.jpg)
 
+Сайты расположеныв по адресам:
+http://158.160.47.251
+http://130.193.34.181
+
 
 ### Мониторинг
 Создайте ВМ, разверните на ней Zabbix. На каждую ВМ установите Zabbix Agent, настройте агенты на отправление метрик в Zabbix. 
