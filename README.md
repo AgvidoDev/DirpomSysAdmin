@@ -60,6 +60,10 @@
 Протестируйте сайт
 `curl -v <публичный IP балансера>:80` 
 
+![balance](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/connect.jpg)
+![balance](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/lbalance.jpg)
+
+
 ### Мониторинг
 Создайте ВМ, разверните на ней Zabbix. На каждую ВМ установите Zabbix Agent, настройте агенты на отправление метрик в Zabbix. 
 
