@@ -64,8 +64,8 @@
 ![balance](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/lbalance.jpg)
 
 Сайты расположеныв по адресам:
-http://158.160.47.251
-http://130.193.34.181
+http://158.160.105.141
+http://158.160.30.84
 
 
 ### Мониторинг
@@ -73,7 +73,7 @@ http://130.193.34.181
 
 Настройте дешборды с отображением метрик, минимальный набор — по принципу USE (Utilization, Saturation, Errors) для CPU, RAM, диски, сеть, http запросов к веб-серверам. Добавьте необходимые tresholds на соответствующие графики.
 
-Zabbix долтупен по http://130.193.49.58/zabbix/zabbix.php?action=dashboard.view
+Zabbix долтупен по http://158.160.103.62/zabbix/zabbix.php?action=dashboard.view
 
 ![zabbix](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/zabbix.jpg)
 ![zabbix](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/zabbixd.jpg)
@@ -83,7 +83,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 Создайте ВМ, разверните на ней Kibana, сконфигурируйте соединение с Elasticsearch.
 
-Kibana доступна по: http://158.160.59.84:5601/app/kibana/
+Kibana доступна по: http://158.160.115.247:5601/app/kibana/
 
 ![balance](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/kibana_01.jpg)
 ![balance](https://github.com/AgvidoDev/DirpomSysAdmin/blob/main/images/kibana_02.jpg)
