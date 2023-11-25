@@ -1,23 +1,23 @@
 [web_servers]
-158.160.47.251
-130.193.34.181
+fhmtq44o84qhu9j5ddph.auto.internal
+epdr9ahcqe337ctml0hn.auto.internal
 
 [zabbix_server]
-130.193.49.58
+fhme6j1bc46ecd4ge4mf.auto.internal
 
 [node_exporters]
-158.160.47.251
-130.193.34.181
+fhmtq44o84qhu9j5ddph.auto.internal
+epdr9ahcqe337ctml0hn.auto.internal
 
 [elastic_server]
-158.160.45.100
+fhmhj9dpqgp68htg2dde.auto.internal
 
 [kibana_server]
-158.160.59.84
+fhmm3q0lguhoujtqkesb.auto.internal
 
 [filebeat_node]
-158.160.47.251
-130.193.34.181
+fhmtq44o84qhu9j5ddph.auto.internal
+epdr9ahcqe337ctml0hn.auto.internal
 
 [all:vars]
 ansible_user=agvido
